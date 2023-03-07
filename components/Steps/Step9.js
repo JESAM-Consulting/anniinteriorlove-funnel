@@ -1,4 +1,4 @@
-import React, { useRef, useState, useContext } from "react";
+import React, { useRef, useState, useContext, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { sendForm } from "../global/sendForm";
 import { forEmail } from "../../config";
@@ -10,6 +10,8 @@ export default function Step9() {
   const myForm = useRef(null);
   const [isChecked, setIsChecked] = useState(false);
   const [send, setSend] = useState(false);
+
+  
 
   const handleCheck = () => {
     setIsChecked(!isChecked);
@@ -32,9 +34,9 @@ export default function Step9() {
 
   const config = {
     headers: {
-      "X-API-Account": "91888735",
+      "X-API-Account": "78943298",
       "X-API-Key":
-        "m5I8c3aW5k5MhbsImtpZCI6ImpTMVhvMU9XAwhjkds898YndHTmd2UU8DAwMDAiLCJpc3MiOiJodHRwb3dzLm85MjC0wMD1NiGpfNTJ2YnIqwTmgsdgx3425Oihjds83hdhjs74eyJhdWQiOiIwMDAwMDpNYyJ9AwNkZ5ldCdsIng1dCI6ImpTMVhvMU9XRdHldCGciqqTAwMDAtYzAwMMy0wMDAwLd2UU8yqnpNYy",
+        "m5I8hjcs89325MhbsImtpZCI6ImpTMVhvMU9XAwhjkds898YndHTmd2UU8DAwMDAiLCJpc3MiOiJodHRwb3dzLm85MjC0wMD1NiGpfNTJ2YnIqwTmgsdgx3425OiJSUzIRGpfyVn.eyJhdWQiOiIwMDAwMDpNYyJ9AwNkZ5ldCdsIng1dCI6ImpTMVhvMU9XRdHldCGciqqTAwMDAtYzAwMMy0wMDAwLd2UU8yqnpNYy",
     },
   };
 
@@ -131,7 +133,7 @@ export default function Step9() {
       interesse_finanzierung: userData.step4,
       dachform: userData.step3,
       art_heizung: userData.step5,
-      leadherkunft: "http://stahlbetonhaus.solar-pvcheck.de",
+      leadherkunft: "http://anniinteriorlove.solar-pvcheck.de",
       Bemerkungen: calculatedDa,
       
     };
@@ -162,9 +164,9 @@ export default function Step9() {
         interesse_finanzierung: userData.step4,
         dachform: userData.step3,
         art_heizung: userData.step5,
-        leadherkunft: "http://stahlbetonhaus.solar-pvcheck.de",
+        leadherkunft: "http://anniinteriorlove.solar-pvcheck.de",
         Bemerkungen: calculatedDa,
-        project:"stahlbetonhaus"
+        project:"anniinteriorlove"
       };
 
 
@@ -309,7 +311,7 @@ export default function Step9() {
                   d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
               </svg>
             </div>
-            <span className={`${send ? "opacity-0" : "opacity-1"}`}>
+            <span className={`${send ? "opacity-0" : "opacity-1"} text-[#000]`  } >
               Angebote erhalten kostenlos & unverbindlich
             </span>
           </button>

@@ -20,7 +20,7 @@ export default function Step1() {
               });
               setStep(step + 1);
             }}
-            className="font-bold font-roboto md:w-[8rem] w-[8rem] text-center py-2  md:py-3 border-green-1 border rounded-md hover:bg-green-1 hover:text-white hover:cursor-pointer transition-all ease-in-out duration-150 bg-opacity-90 hover:shadow-md text-green-1 bg-white">
+            className="font-bold font-roboto md:w-[8rem] w-[8rem] text-[#000] text-center py-2  md:py-3 border-green-1 border rounded-md hover:bg-green-1  hover:cursor-pointer transition-all ease-in-out duration-150 bg-opacity-90 hover:shadow-md text-green-1 bg-white">
             Ja
           </div>
 
@@ -32,7 +32,7 @@ export default function Step1() {
               });
               setStep(step + 1);
             }}
-            className="font-bold font-roboto md:w-[8rem] w-[8rem] text-center py-2  md:py-3 border-green-1 border rounded-md hover:bg-green-1 hover:text-white hover:cursor-pointer transition-all ease-in-out duration-150 bg-opacity-90 hover:shadow-md  text-green-1 bg-white">
+            className="font-bold font-roboto md:w-[8rem] w-[8rem] text-center py-2 text-[#000]  md:py-3 border-green-1 border rounded-md hover:bg-green-1 hover:cursor-pointer transition-all ease-in-out duration-150 bg-opacity-90 hover:shadow-md  text-green-1 bg-white">
             Nein
           </div>
         </div>

@@ -4,7 +4,7 @@ import Head from "next/head";
 export default function Header() {
   return (
     <Head>
-      <title>Stahlbetonhaus</title>
+      <title>Anniinteriorlove</title>
       <meta
         name="description"
         content="Photovoltaik Angebot - individuelle Solar-Beratung."

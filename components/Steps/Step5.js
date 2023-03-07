@@ -82,7 +82,7 @@ export default function Step5() {
               <rect x="0.5" y="0.5" width="152" height="108" stroke="#F6E7C7" />
             </svg>
 
-            <span className="font-visby md:text-base text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-base text-sm text-green-1 mt-2 text-[#000]">
               Elektrische Heizung
             </span>
           </div>
@@ -133,7 +133,7 @@ export default function Step5() {
               />
             </svg>
 
-            <span className="font-visby md:text-base text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-base text-sm text-green-1 mt-2 text-[#000]">
               Wärmepumpe
             </span>
           </div>
@@ -173,7 +173,7 @@ export default function Step5() {
               <rect x="0.5" y="0.5" width="152" height="108" stroke="#F6E7C7" />
             </svg>
 
-            <span className="font-visby md:text-base text-sm text-green-1 mt-2 max-w-[7rem] mx-auto">
+            <span className="font-visby md:text-base text-sm text-green-1 mt-2 max-w-[7rem] mx-auto text-[#000]">
               Öl, Gas, Holz, Fernwärme
             </span>
           </div>

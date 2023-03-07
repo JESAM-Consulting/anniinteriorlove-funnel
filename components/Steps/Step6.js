@@ -106,7 +106,7 @@ export default function Step6() {
                   setStep(step + 1);
                 }
               }}
-              className="text-white bg-green-1 font-roboto rounded-md py-2.5 w-44 text-center font-semibold hover:cursor-pointer transition-all ease-in-out duration-150">
+              className="text-white bg-green-1 font-roboto rounded-md py-2.5 text-[#000] w-44 text-center font-semibold hover:cursor-pointer transition-all ease-in-out duration-150">
               Weiter
             </div>
           </div>

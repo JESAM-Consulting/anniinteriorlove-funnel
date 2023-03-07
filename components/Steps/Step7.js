@@ -923,7 +923,7 @@ export default function Step7() {
               onClick={() => {
                 setStep(step - 1);
               }}
-              className="font-bold font-roboto px-10 py-2 border-[#F6E7C7] border rounded-md text-[#F6E7C7] hover:cursor-pointer transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] hover:bg-green-1 hover:text-white">
+              className="font-bold font-roboto px-10 py-2 border-[#F6E7C7] border rounded-md text-[#F6E7C7] hover:cursor-pointer transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] hover:bg-green-1 text-[#000]">
               Zurück
             </div>
             <div
@@ -988,7 +988,7 @@ export default function Step7() {
                   setStep(step + 1);
                 }
               }}
-              className="font-bold font-roboto px-10 py-2 border-green-1 border rounded-md bg-green-1 text-white hover:cursor-pointer transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] hover:text-green-1 hover:bg-white">
+              className="font-bold font-roboto text-[#000] px-10 py-2 border-green-1 border rounded-md bg-green-1 text-white hover:cursor-pointer transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69]  hover:bg-white">
               Weiter
             </div>
           </div>

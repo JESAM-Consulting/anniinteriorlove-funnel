@@ -84,7 +84,7 @@ export default function Step3() {
               </defs>
             </svg>
 
-            <span className="font-visby md:text-xl text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-xl text-sm text-green-1 mt-2 text-[#000]">
               Flachdach
             </span>
           </div>
@@ -171,7 +171,7 @@ export default function Step3() {
               </defs>
             </svg>
 
-            <span className="font-visby md:text-xl text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-xl text-sm text-green-1 mt-2 text-[#000]">
               Pultdach
             </span>
           </div>
@@ -215,7 +215,7 @@ export default function Step3() {
               </defs>
             </svg>
 
-            <span className="font-visby md:text-xl text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-xl text-sm text-green-1 mt-2 text-[#000]" >
               Satteldach
             </span>
           </div>
@@ -255,12 +255,12 @@ export default function Step3() {
               </defs>
             </svg>
 
-            <span className="font-visby md:text-xl text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-xl text-sm text-green-1 mt-2 text-[#000]">
               Andere
             </span>
           </div>
         </div>
-        <div className="text-green-1 lg:mt-8 max-w-2xl md:my-10 my-4">
+        <div className="text-green-1 lg:mt-8 max-w-2xl md:my-10 my-4 text-[#000]">
           Für Ihren Stromverbrauch von{" "}
           <span className="font-bold">
             {userData.step2 ? userData.step2.consumo : "4000"} kWh

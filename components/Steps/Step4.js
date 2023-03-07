@@ -42,7 +42,7 @@ export default function Step4() {
               <rect x="0.5" y="0.5" width="152" height="108" stroke="#F6E7C7" />
             </svg>
 
-            <span className="font-visby md:text-base text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-base text-sm text-[#000] mt-2">
               Finanzieren
             </span>
           </div>
@@ -113,7 +113,7 @@ export default function Step4() {
               <rect x="0.5" y="0.5" width="152" height="106" stroke="#F6E7C7" />
             </svg>
 
-            <span className="font-visby md:text-base text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-base text-sm text-green-1 mt-2 text-[#000]">
               Kaufen
             </span>
           </div>
@@ -150,7 +150,7 @@ export default function Step4() {
               <rect x="0.5" y="0.5" width="152" height="107" stroke="#F6E7C7" />
             </svg>
 
-            <span className="font-visby md:text-base text-sm text-green-1 mt-2">
+            <span className="font-visby md:text-base text-sm text-green-1 mt-2 text-[#000]">
               Beides interessant
             </span>
           </div>

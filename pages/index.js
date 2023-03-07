@@ -62,13 +62,13 @@ export default function Home() {
     if (dimension < 900 && step != 10 && step != 0) {
       if (step == 9) {
         window.scroll({
-          top: 130,
+          top: 100,
           left: 0,
           behavior: "smooth",
         });
       } else {
         window.scroll({
-          top: 210,
+          top: 180,
           left: 0,
           behavior: "smooth",
         });
@@ -81,10 +81,15 @@ export default function Home() {
       });
     }
     if (step == 1) {
-      setIndex(0);
+      // window.scroll({
+      //   top: 180,
+      //   left: 0,
+      //   behavior: "smooth",
+      // });
     }
     if (step == 2) {
       setIndex(1);
+     
     }
 
     if (step == 3) {
@@ -106,6 +111,7 @@ export default function Home() {
       setIndex(5);
     }
   }, [step, dimension]);
+
 
   const [progress, setProgress] = useState("w-0");
   const [cancel, setCancel] = useState(false);
@@ -314,12 +320,12 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path
                   d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
-                  fill="white"
+                  fill="#000"
                 />
               </svg>
             </span>
 
-            <span className="font-semibold md:block md:text-base text-sm hidden font-visby group-hover:scale-[1.05] delay-100 transition-all ease-in-out duration-150">
+            <span className="font-semibold md:block md:text-base text-sm hidden font-visby group-hover:scale-[1.05] delay-100 transition-all ease-in-out duration-150 text-[#000]">
               zurück
             </span>
           </div>
