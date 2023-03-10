@@ -205,8 +205,8 @@ export default function Home() {
       <div
         className={`grid lg:grid-cols-[70%_30%] ${
           step == 8
-            ? " lg:min-h-[77.5vh]"
-            : " lg:h-[77.5vh] lg:overflow-y-hidden"
+            ? " lg:min-h-[79vh]"
+            : " lg:h-[79vh] lg:overflow-y-hidden"
         } overflow-hidden`}>
         <div className="lg:px-16 lg:py-6 lg:pb-0 md:pt-10 relative ">
           <div>

@@ -21,7 +21,7 @@ export default function Step6() {
           <img
             src="/images/bitte.webp"
             alt=""
-            className="lg:w-[17rem] md:w-48 w-60"
+            className="lg:w-[15rem] md:w-48 w-60"
           />
         </div>
         <div className="lg:mt-4 space-y-4 text-xs md:hidden block">
@@ -106,7 +106,7 @@ export default function Step6() {
                   setStep(step + 1);
                 }
               }}
-              className="text-white bg-green-1 font-roboto rounded-md py-2.5 text-[#000] w-44 text-center font-semibold hover:cursor-pointer transition-all ease-in-out duration-150">
+              className="bg-green-1 font-roboto rounded-md py-2.5 text-[#000] w-44 text-center font-semibold hover:cursor-pointer transition-all ease-in-out duration-150">
               Weiter
             </div>
           </div>

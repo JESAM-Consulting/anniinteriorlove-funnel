@@ -95,7 +95,7 @@ export default function Step2() {
               setErr(true);
             }
           }}
-          className="text-white bg-green-1 font-roboto rounded-md py-2.5 w-44 text-center font-semibold hover:cursor-pointer transition-all ease-in-out duration-150 text-[#000]">
+          className="bg-green-1 font-roboto rounded-md py-2.5 w-44 text-center font-semibold hover:cursor-pointer transition-all ease-in-out duration-150 text-[#000]">
           Weiter
         </div>
       </div>

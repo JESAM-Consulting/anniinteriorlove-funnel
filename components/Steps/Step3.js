@@ -84,7 +84,7 @@ export default function Step3() {
               </defs>
             </svg>
 
-            <span className="font-visby md:text-xl text-sm text-green-1 mt-2 text-[#000]">
+            <span className="font-visby md:text-xl text-sm mt-2 text-[#000]">
               Flachdach
             </span>
           </div>
@@ -171,7 +171,7 @@ export default function Step3() {
               </defs>
             </svg>
 
-            <span className="font-visby md:text-xl text-sm text-green-1 mt-2 text-[#000]">
+            <span className="font-visby md:text-xl text-sm mt-2 text-[#000]">
               Pultdach
             </span>
           </div>
@@ -215,7 +215,7 @@ export default function Step3() {
               </defs>
             </svg>
 
-            <span className="font-visby md:text-xl text-sm text-green-1 mt-2 text-[#000]" >
+            <span className="font-visby md:text-xl text-sm mt-2 text-[#000]" >
               Satteldach
             </span>
           </div>
@@ -255,7 +255,7 @@ export default function Step3() {
               </defs>
             </svg>
 
-            <span className="font-visby md:text-xl text-sm text-green-1 mt-2 text-[#000]">
+            <span className="font-visby md:text-xl text-sm mt-2 text-[#000]">
               Andere
             </span>
           </div>
